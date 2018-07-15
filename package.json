@@ -1,0 +1,23 @@
+{
+  "name": "weather-app-express",
+  "version": "1.0.0",
+  "description": "weather app with expressjs and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "expressjs"
+  ],
+  "author": "arisupriatan14",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "eslint": "^5.1.0",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "request": "^2.87.0"
+  }
+}
